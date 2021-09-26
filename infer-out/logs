@@ -1,278 +1,278 @@
-[5366][      debug] Loading models took 45.663ms
-[5369][      debug] Sqlite write daemon: starting up
-[5369][      debug] Sqlite write daemon: set up complete, waiting for connections
-[5366][environment] CWD = /Users/catherine/Documents/GitHub/assignment1-gstat-20/1.1-option/BatBat-Game
-[5366][environment] No .inferconfig file found
-[5366][environment] Project root = /Users/catherine/Documents/GitHub/assignment1-gstat-20/1.1-option/BatBat-Game
-[5366][environment] INFER_ARGS =   @/var/folders/vc/c820tz8n1374njxxcc7667sc0000gn/T/args.tmp.d5ff27
-[5366][environment] command line arguments:   infer run -- mvn clean install
-[5366][environment] Could not retrieve available memory (possibly not on Linux)
-[5366][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
-[5366][environment] Scheduler: file
-[5366][environment] Cores used: 2
-[5366][environment] Infer version v1.1.0
-[5366][environment] Copyright 2009 - present Facebook. All Rights Reserved.
-[5366][environment] 
-[5366][   progress] Capturing in maven mode...
-[5366][      debug] Running maven capture:
-[5366][      debug] mvn 'clean' 'install' '-P' 'infer-capture'
+[5730][      debug] Loading models took 58.918ms
+[5733][      debug] Sqlite write daemon: starting up
+[5733][      debug] Sqlite write daemon: set up complete, waiting for connections
+[5730][environment] CWD = /Users/catherine/Documents/GitHub/assignment1-gstat-20/1.1/BatBat-Game
+[5730][environment] No .inferconfig file found
+[5730][environment] Project root = /Users/catherine/Documents/GitHub/assignment1-gstat-20/1.1/BatBat-Game
+[5730][environment] INFER_ARGS =   @/var/folders/vc/c820tz8n1374njxxcc7667sc0000gn/T/args.tmp.45e6ca
+[5730][environment] command line arguments:   infer run -- mvn clean install
+[5730][environment] Could not retrieve available memory (possibly not on Linux)
+[5730][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[5730][environment] Scheduler: file
+[5730][environment] Cores used: 2
+[5730][environment] Infer version v1.1.0
+[5730][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[5730][environment] 
+[5730][   progress] Capturing in maven mode...
+[5730][      debug] Running maven capture:
+[5730][      debug] mvn 'clean' 'install' '-P' 'infer-capture'
 
-[5391][environment] CWD = /Users/catherine/Documents/GitHub/assignment1-gstat-20/1.1-option/BatBat-Game
-[5391][environment] No .inferconfig file found
-[5391][environment] Project root = /Users/catherine/Documents/GitHub/assignment1-gstat-20/1.1-option/BatBat-Game
-[5391][environment] INFER_ARGS =   @/var/folders/vc/c820tz8n1374njxxcc7667sc0000gn/T/args.tmp.b38fc0
-[5391][environment] command line arguments:   /usr/local/Cellar/infer/1.1.0_1/lib/infer/infer/bin/infer
-[5391][environment]                           @/private/var/folders/vc/c820tz8n1374njxxcc7667sc0000gn/T/org.codehaus.plexus.compiler.javac.JavacCompiler7365108648455670799arguments
-[5391][environment] Could not retrieve available memory (possibly not on Linux)
-[5391][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
-[5391][      debug] Current working directory: '/Users/catherine/Documents/GitHub/assignment1-gstat-20/1.1-option/BatBat-Game'
-[5391][      debug] Trying to execute: javac '-J-Duser.language=en' '@/private/var/folders/vc/c820tz8n1374njxxcc7667sc0000gn/T/org.codehaus.plexus.compiler.javac.JavacCompiler7365108648455670799arguments' '@/Users/catherine/Documents/GitHub/assignment1-gstat-20/1.1-option/BatBat-Game/infer-out/tmp/javac_args.tmp.9f28f9' 2>'/Users/catherine/Documents/GitHub/assignment1-gstat-20/1.1-option/BatBat-Game/infer-out/tmp/javac.tmp.2320dc.out'
-[5391][      debug] *** Success. Logs:
-[5391][      debug] Translating 43 source files (47 classes)
-[5391][      debug] done capturing all files
-[5391][      debug] GC stats for capture:
-[5391][      debug]   minor_words: 3.58725e+07
-[5391][      debug]   promoted_words: 2.09282e+06
-[5391][      debug]   major_words: 2.55942e+06
-[5391][      debug]   minor_collections: 58
-[5391][      debug]   major_collections: 9
-[5391][      debug]   compactions: 0
-[5391][      debug]   top_heap_words: 2026496
-[5391][      debug]   
-[5391][      debug] GC stats for main_process_full:
-[5391][      debug]   minor_words: 3.74334e+07
-[5391][      debug]   promoted_words: 2.25599e+06
-[5391][      debug]   major_words: 2.74598e+06
-[5391][      debug]   minor_collections: 68
-[5391][      debug]   major_collections: 12
-[5391][      debug]   compactions: 1
-[5391][      debug]   top_heap_words: 2026496
-[5391][      debug]   
-[5391][environment] Scheduler: file
-[5391][environment] Cores used: 2
-[5391][environment] 
-[5396][environment] CWD = /Users/catherine/Documents/GitHub/assignment1-gstat-20/1.1-option/BatBat-Game
-[5396][environment] No .inferconfig file found
-[5396][environment] Project root = /Users/catherine/Documents/GitHub/assignment1-gstat-20/1.1-option/BatBat-Game
-[5396][environment] INFER_ARGS =   @/var/folders/vc/c820tz8n1374njxxcc7667sc0000gn/T/args.tmp.e3c69f
-[5396][environment] command line arguments:   /usr/local/Cellar/infer/1.1.0_1/lib/infer/infer/bin/infer
-[5396][environment]                           @/private/var/folders/vc/c820tz8n1374njxxcc7667sc0000gn/T/org.codehaus.plexus.compiler.javac.JavacCompiler5750992047804785417arguments
-[5396][environment] Could not retrieve available memory (possibly not on Linux)
-[5396][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
-[5396][      debug] Current working directory: '/Users/catherine/Documents/GitHub/assignment1-gstat-20/1.1-option/BatBat-Game'
-[5396][      debug] Trying to execute: javac '-J-Duser.language=en' '@/private/var/folders/vc/c820tz8n1374njxxcc7667sc0000gn/T/org.codehaus.plexus.compiler.javac.JavacCompiler5750992047804785417arguments' '@/Users/catherine/Documents/GitHub/assignment1-gstat-20/1.1-option/BatBat-Game/infer-out/tmp/javac_args.tmp.7924d4' 2>'/Users/catherine/Documents/GitHub/assignment1-gstat-20/1.1-option/BatBat-Game/infer-out/tmp/javac.tmp.dbb78a.out'
-[5396][      debug] *** Success. Logs:
-[5396][      debug] Translating 7 source files (7 classes)
-[5396][      debug] done capturing all files
-[5396][      debug] GC stats for capture:
-[5396][      debug]   minor_words: 5.29889e+06
-[5396][      debug]   promoted_words: 1.43747e+06
-[5396][      debug]   major_words: 1.56441e+06
-[5396][      debug]   minor_collections: 8
-[5396][      debug]   major_collections: 1
-[5396][      debug]   compactions: 0
-[5396][      debug]   top_heap_words: 1761792
-[5396][      debug]   
-[5396][      debug] GC stats for main_process_full:
-[5396][      debug]   minor_words: 6.85768e+06
-[5396][      debug]   promoted_words: 1.60065e+06
-[5396][      debug]   major_words: 1.75181e+06
-[5396][      debug]   minor_collections: 18
-[5396][      debug]   major_collections: 4
-[5396][      debug]   compactions: 1
-[5396][      debug]   top_heap_words: 1761792
-[5396][      debug]   
-[5396][environment] Scheduler: file
-[5396][environment] Cores used: 2
-[5396][environment] [5366][      debug] GC stats for capture:
-[5366][      debug]   minor_words: 30973
-[5366][      debug]   promoted_words: 0
-[5366][      debug]   major_words: 0
-[5366][      debug]   minor_collections: 0
-[5366][      debug]   major_collections: 0
-[5366][      debug]   compactions: 0
-[5366][      debug]   top_heap_words: 760832
-[5366][      debug]   
-[5366][environment] Parallel jobs: 2
-[5366][   progress] Found 50 source files to analyze in /Users/catherine/Documents/GitHub/assignment1-gstat-20/1.1-option/BatBat-Game/infer-out
-[5408][   progress] src/main/java/al/tonikolaba/gamestate/AcidState.java starting
-[5409][   progress] src/main/java/al/tonikolaba/entity/HUD.java starting
-[5409][   progress] src/main/java/al/tonikolaba/entity/HUD.java DONE
-[5409][   progress] src/main/java/al/tonikolaba/entity/Explosion.java starting
-[5409][   progress] src/main/java/al/tonikolaba/entity/Explosion.java DONE
-[5409][   progress] src/main/java/al/tonikolaba/gamestate/MenuState.java starting
-[5408][   progress] src/main/java/al/tonikolaba/gamestate/AcidState.java DONE
-[5408][   progress] src/main/java/al/tonikolaba/gamestate/Level1State.java starting
-[5408][   progress] src/main/java/al/tonikolaba/gamestate/Level1State.java DONE
-[5408][   progress] src/main/java/al/tonikolaba/entity/enemies/XhelBat.java starting
-[5409][   progress] src/main/java/al/tonikolaba/gamestate/MenuState.java DONE
-[5409][   progress] src/main/java/al/tonikolaba/handlers/Keys.java starting
-[5409][   progress] src/main/java/al/tonikolaba/handlers/Keys.java DONE
-[5409][   progress] src/main/java/al/tonikolaba/gamestate/OptionsState.java starting
-[5409][   progress] src/main/java/al/tonikolaba/gamestate/OptionsState.java DONE
-[5409][   progress] src/main/java/al/tonikolaba/entity/batbat/Piece.java starting
-[5409][   progress] src/main/java/al/tonikolaba/entity/batbat/Piece.java DONE
-[5409][   progress] src/test/java/al/tonikolaba/entity/PlayerSaveTest.java starting
-[5409][   progress] src/test/java/al/tonikolaba/entity/PlayerSaveTest.java DONE
-[5409][   progress] src/main/java/al/tonikolaba/gamestate/Level3State.java starting
-[5408][   progress] src/main/java/al/tonikolaba/entity/enemies/XhelBat.java DONE
-[5408][   progress] src/main/java/al/tonikolaba/main/GamePanel.java starting
-[5408][   progress] src/main/java/al/tonikolaba/main/GamePanel.java DONE
-[5408][   progress] src/main/java/al/tonikolaba/entity/Portal.java starting
-[5408][   progress] src/main/java/al/tonikolaba/entity/Portal.java DONE
-[5408][   progress] src/main/java/al/tonikolaba/handlers/LoggingHelper.java starting
-[5408][   progress] src/main/java/al/tonikolaba/handlers/LoggingHelper.java DONE
-[5408][   progress] src/test/java/al/tonikolaba/entity/PlayerTest.java starting
-[5408][   progress] src/test/java/al/tonikolaba/entity/PlayerTest.java DONE
-[5408][   progress] src/main/java/al/tonikolaba/audio/JukeBox.java starting
-[5408][   progress] src/main/java/al/tonikolaba/audio/JukeBox.java DONE
-[5408][   progress] src/main/java/al/tonikolaba/tilemap/Tile.java starting
-[5408][   progress] src/main/java/al/tonikolaba/tilemap/Tile.java DONE
-[5408][   progress] src/main/java/al/tonikolaba/tilemap/TileMap.java starting
-[5408][   progress] src/main/java/al/tonikolaba/tilemap/TileMap.java DONE
-[5408][   progress] src/main/java/al/tonikolaba/entity/Player.java starting
-[5408][   progress] src/main/java/al/tonikolaba/entity/Player.java DONE
-[5408][   progress] src/main/java/al/tonikolaba/gamestate/BasicState.java starting
-[5408][   progress] src/main/java/al/tonikolaba/gamestate/BasicState.java DONE
-[5408][   progress] src/main/java/al/tonikolaba/tilemap/Background.java starting
-[5408][   progress] src/main/java/al/tonikolaba/tilemap/Background.java DONE
-[5408][   progress] src/main/java/al/tonikolaba/handlers/Content.java starting
-[5408][   progress] src/main/java/al/tonikolaba/handlers/Content.java DONE
-[5408][   progress] src/main/java/al/tonikolaba/gamestate/LevelTest.java starting
-[5409][   progress] src/main/java/al/tonikolaba/gamestate/Level3State.java DONE
-[5409][   progress] src/main/java/al/tonikolaba/main/BatBatGame.java starting
-[5409][   progress] src/main/java/al/tonikolaba/main/BatBatGame.java DONE
-[5409][   progress] src/main/java/al/tonikolaba/entity/EnemyProjectile.java starting
-[5409][   progress] src/main/java/al/tonikolaba/entity/EnemyProjectile.java DONE
-[5409][   progress] src/main/java/al/tonikolaba/gamestate/Level2State.java starting
-[5409][   progress] src/main/java/al/tonikolaba/gamestate/Level2State.java DONE
-[5409][   progress] src/test/java/al/tonikolaba/gamestate/GameStateManagerTest.java starting
-[5409][   progress] src/test/java/al/tonikolaba/gamestate/GameStateManagerTest.java DONE
-[5409][   progress] src/main/java/al/tonikolaba/entity/Title.java starting
-[5409][   progress] src/main/java/al/tonikolaba/entity/Title.java DONE
-[5409][   progress] src/main/java/al/tonikolaba/main/BatBatSpring.java starting
-[5409][   progress] src/main/java/al/tonikolaba/main/BatBatSpring.java DONE
-[5409][   progress] src/main/java/al/tonikolaba/entity/enemies/RedEnergy.java starting
-[5408][   progress] src/main/java/al/tonikolaba/gamestate/LevelTest.java DONE
-[5408][   progress] src/main/java/al/tonikolaba/entity/PlayerSave.java starting
-[5408][   progress] src/main/java/al/tonikolaba/entity/PlayerSave.java DONE
-[5408][   progress] src/main/java/al/tonikolaba/gamestate/PauseState.java starting
-[5408][   progress] src/main/java/al/tonikolaba/gamestate/PauseState.java DONE
-[5408][   progress] src/main/java/al/tonikolaba/entity/Animation.java starting
-[5408][   progress] src/main/java/al/tonikolaba/entity/Animation.java DONE
-[5408][   progress] src/test/java/al/tonikolaba/entity/MapObjectTest.java starting
-[5408][   progress] src/test/java/al/tonikolaba/entity/MapObjectTest.java DONE
-[5408][   progress] src/test/java/al/tonikolaba/handlers/KeysTest.java starting
-[5408][   progress] src/test/java/al/tonikolaba/handlers/KeysTest.java DONE
-[5408][   progress] src/main/java/al/tonikolaba/gamestate/GameState.java starting
-[5409][   progress] src/main/java/al/tonikolaba/entity/enemies/RedEnergy.java DONE
-[5409][   progress] src/main/java/al/tonikolaba/gamestate/HowtoPlay.java starting
-[5409][   progress] src/main/java/al/tonikolaba/gamestate/HowtoPlay.java DONE
-[5409][   progress] src/main/java/al/tonikolaba/entity/FireBall.java starting
-[5408][   progress] src/main/java/al/tonikolaba/gamestate/GameState.java DONE
-[5408][   progress] src/main/java/al/tonikolaba/entity/EnergyParticle.java starting
-[5408][   progress] src/main/java/al/tonikolaba/entity/EnergyParticle.java DONE
-[5408][   progress] src/main/java/al/tonikolaba/entity/MapObject.java starting
-[5408][   progress] src/main/java/al/tonikolaba/entity/MapObject.java DONE
-[5408][   progress] src/main/java/al/tonikolaba/gamestate/Level4State.java starting
-[5409][   progress] src/main/java/al/tonikolaba/entity/FireBall.java DONE
-[5409][   progress] src/main/java/al/tonikolaba/entity/enemies/Zogu.java starting
-[5409][   progress] src/main/java/al/tonikolaba/entity/enemies/Zogu.java DONE
-[5409][   progress] src/main/java/al/tonikolaba/entity/enemies/Ufo.java starting
-[5409][   progress] src/main/java/al/tonikolaba/entity/enemies/Ufo.java DONE
-[5409][   progress] src/main/java/al/tonikolaba/entity/Spirit.java starting
-[5408][   progress] src/main/java/al/tonikolaba/gamestate/Level4State.java DONE
-[5408][   progress] src/test/java/al/tonikolaba/ProjectSuiteTests.java starting
-[5408][   progress] src/test/java/al/tonikolaba/ProjectSuiteTests.java DONE
-[5408][   progress] src/main/java/al/tonikolaba/entity/enemies/Flyer.java starting
-[5408][   progress] src/main/java/al/tonikolaba/entity/enemies/Flyer.java DONE
-[5408][   progress] src/main/java/al/tonikolaba/gamestate/GameStateManager.java starting
-[5408][   progress] src/main/java/al/tonikolaba/gamestate/GameStateManager.java DONE
-[5408][   progress] src/test/java/al/tonikolaba/main/BatBatSpringTests.java starting
-[5408][   progress] src/test/java/al/tonikolaba/main/BatBatSpringTests.java DONE
-[5408][   progress] src/main/java/al/tonikolaba/entity/Teleport.java starting
-[5408][   progress] src/main/java/al/tonikolaba/entity/Teleport.java DONE
-[5408][   progress] src/main/java/al/tonikolaba/entity/Enemy.java starting
-[5408][   progress] src/main/java/al/tonikolaba/entity/Enemy.java DONE
-[5409][   progress] src/main/java/al/tonikolaba/entity/Spirit.java DONE
-[5366][      debug] Backend stats:
-[5366][      debug]   summary_file_try_load= 6171
-[5366][      debug]   summary_read_from_disk= 487
-[5366][      debug]   summary_cache_hits= 18049 (74%)
-[5366][      debug]   summary_cache_misses= 6171
-[5366][      debug]   ondemand_procs_analyzed= 385
-[5366][      debug]   ondemand_local_cache_hits= 9815 (92%)
-[5366][      debug]   ondemand_local_cache_misses= 749
-[5366][      debug]   proc_locker_lock_time_user= 0.00000000
-[5366][      debug]   proc_locker_lock_time_sys= 0.00000000
-[5366][      debug]   proc_locker_lock_time_wall= 0.00000000
-[5366][      debug]   proc_locker_unlock_time_user= 0.00000000
-[5366][      debug]   proc_locker_unlock_time_sys= 0.00000000
-[5366][      debug]   proc_locker_unlock_time_wall= 0.00000000
-[5366][      debug]   restart_scheduler_useful_time_user= 0.00000000
-[5366][      debug]   restart_scheduler_useful_time_sys= 0.00000000
-[5366][      debug]   restart_scheduler_useful_time_wall= 0.00000000
-[5366][      debug]   restart_scheduler_total_time_user= 0.00000000
-[5366][      debug]   restart_scheduler_total_time_sys= 0.00000000
-[5366][      debug]   restart_scheduler_total_time_wall= 0.00000000
-[5366][      debug]   
-[5366][      debug] GC stats for backend_stats.gc_stats_add.:
-[5366][      debug]   minor_words: 1.81931e+10
-[5366][      debug]   promoted_words: 1.00496e+08
-[5366][      debug]   major_words: 1.15785e+08
-[5366][      debug]   minor_collections: 17425
-[5366][      debug]   major_collections: 168
-[5366][      debug]   compactions: 0
-[5366][      debug]   top_heap_words: 10082304
-[5366][      debug]   
-[5366][      debug] GC stats for backend_stats.gc_stats_max.:
-[5366][      debug]   minor_words: 9.18006e+09
-[5366][      debug]   promoted_words: 5.07068e+07
-[5366][      debug]   major_words: 5.80905e+07
-[5366][      debug]   minor_collections: 8791
-[5366][      debug]   major_collections: 86
-[5366][      debug]   compactions: 0
-[5366][      debug]   top_heap_words: 5392896
-[5366][      debug]   
-[5366][      debug] Average over 2 processes
-[5366][      debug] GC stats for backend_stats.gc_stats_average.:
-[5366][      debug]   minor_words: 9.09656e+09
-[5366][      debug]   promoted_words: 5.02478e+07
-[5366][      debug]   major_words: 5.78926e+07
-[5366][      debug]   minor_collections: 8712
-[5366][      debug]   major_collections: 84
-[5366][      debug]   compactions: 0
-[5366][      debug]   top_heap_words: 5041152
-[5366][      debug]   
-[5366][      debug] Analysis phase finished in 39.815s
-[5366][      debug] backend_stats.scheduler_process_analysis_time_user= 0.26331500
-[5366][      debug] backend_stats.scheduler_process_analysis_time_sys= 0.14903400
-[5366][      debug] backend_stats.scheduler_process_analysis_time_wall= 39.81477072
-[5366][      debug] GC stats for analysis_scheduler:
-[5366][      debug]   minor_words: 2.24985e+07
-[5366][      debug]   promoted_words: 232577
-[5366][      debug]   major_words: 241283
-[5366][      debug]   minor_collections: 25
-[5366][      debug]   major_collections: 6
-[5366][      debug]   compactions: 1
-[5366][      debug]   top_heap_words: 1006592
-[5366][      debug]   
-[5366][      debug] GC stats for report:
-[5366][      debug]   minor_words: 287130
-[5366][      debug]   promoted_words: 0
-[5366][      debug]   major_words: 9522
-[5366][      debug]   minor_collections: 0
-[5366][      debug]   major_collections: 0
-[5366][      debug]   compactions: 0
-[5366][      debug]   top_heap_words: 1006592
-[5366][      debug]   
-[5366][      debug] GC stats for main_process_full:
-[5366][      debug]   minor_words: 2.46486e+07
-[5366][      debug]   promoted_words: 395620
-[5366][      debug]   major_words: 978365
-[5366][      debug]   minor_collections: 35
-[5366][      debug]   major_collections: 9
-[5366][      debug]   compactions: 2
-[5366][      debug]   top_heap_words: 1006592
-[5366][      debug]   
-[5369][      debug] Sqlite write daemon: terminating
+[5755][environment] CWD = /Users/catherine/Documents/GitHub/assignment1-gstat-20/1.1/BatBat-Game
+[5755][environment] No .inferconfig file found
+[5755][environment] Project root = /Users/catherine/Documents/GitHub/assignment1-gstat-20/1.1/BatBat-Game
+[5755][environment] INFER_ARGS =   @/var/folders/vc/c820tz8n1374njxxcc7667sc0000gn/T/args.tmp.b38409
+[5755][environment] command line arguments:   /usr/local/Cellar/infer/1.1.0_1/lib/infer/infer/bin/infer
+[5755][environment]                           @/private/var/folders/vc/c820tz8n1374njxxcc7667sc0000gn/T/org.codehaus.plexus.compiler.javac.JavacCompiler4204270030933158474arguments
+[5755][environment] Could not retrieve available memory (possibly not on Linux)
+[5755][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[5755][      debug] Current working directory: '/Users/catherine/Documents/GitHub/assignment1-gstat-20/1.1/BatBat-Game'
+[5755][      debug] Trying to execute: javac '-J-Duser.language=en' '@/private/var/folders/vc/c820tz8n1374njxxcc7667sc0000gn/T/org.codehaus.plexus.compiler.javac.JavacCompiler4204270030933158474arguments' '@/Users/catherine/Documents/GitHub/assignment1-gstat-20/1.1/BatBat-Game/infer-out/tmp/javac_args.tmp.daf68d' 2>'/Users/catherine/Documents/GitHub/assignment1-gstat-20/1.1/BatBat-Game/infer-out/tmp/javac.tmp.ca16e8.out'
+[5755][      debug] *** Success. Logs:
+[5755][      debug] Translating 43 source files (47 classes)
+[5755][      debug] done capturing all files
+[5755][      debug] GC stats for capture:
+[5755][      debug]   minor_words: 3.65615e+07
+[5755][      debug]   promoted_words: 2.08962e+06
+[5755][      debug]   major_words: 2.55622e+06
+[5755][      debug]   minor_collections: 60
+[5755][      debug]   major_collections: 9
+[5755][      debug]   compactions: 0
+[5755][      debug]   top_heap_words: 2026496
+[5755][      debug]   
+[5755][      debug] GC stats for main_process_full:
+[5755][      debug]   minor_words: 3.81221e+07
+[5755][      debug]   promoted_words: 2.25278e+06
+[5755][      debug]   major_words: 2.74276e+06
+[5755][      debug]   minor_collections: 70
+[5755][      debug]   major_collections: 12
+[5755][      debug]   compactions: 1
+[5755][      debug]   top_heap_words: 2026496
+[5755][      debug]   
+[5755][environment] Scheduler: file
+[5755][environment] Cores used: 2
+[5755][environment] 
+[5761][environment] CWD = /Users/catherine/Documents/GitHub/assignment1-gstat-20/1.1/BatBat-Game
+[5761][environment] No .inferconfig file found
+[5761][environment] Project root = /Users/catherine/Documents/GitHub/assignment1-gstat-20/1.1/BatBat-Game
+[5761][environment] INFER_ARGS =   @/var/folders/vc/c820tz8n1374njxxcc7667sc0000gn/T/args.tmp.df7fd9
+[5761][environment] command line arguments:   /usr/local/Cellar/infer/1.1.0_1/lib/infer/infer/bin/infer
+[5761][environment]                           @/private/var/folders/vc/c820tz8n1374njxxcc7667sc0000gn/T/org.codehaus.plexus.compiler.javac.JavacCompiler698242951899518568arguments
+[5761][environment] Could not retrieve available memory (possibly not on Linux)
+[5761][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[5761][      debug] Current working directory: '/Users/catherine/Documents/GitHub/assignment1-gstat-20/1.1/BatBat-Game'
+[5761][      debug] Trying to execute: javac '-J-Duser.language=en' '@/private/var/folders/vc/c820tz8n1374njxxcc7667sc0000gn/T/org.codehaus.plexus.compiler.javac.JavacCompiler698242951899518568arguments' '@/Users/catherine/Documents/GitHub/assignment1-gstat-20/1.1/BatBat-Game/infer-out/tmp/javac_args.tmp.d06058' 2>'/Users/catherine/Documents/GitHub/assignment1-gstat-20/1.1/BatBat-Game/infer-out/tmp/javac.tmp.ecd8ac.out'
+[5761][      debug] *** Success. Logs:
+[5761][      debug] Translating 7 source files (7 classes)
+[5761][      debug] done capturing all files
+[5761][      debug] GC stats for capture:
+[5761][      debug]   minor_words: 5.29813e+06
+[5761][      debug]   promoted_words: 1.43749e+06
+[5761][      debug]   major_words: 1.56442e+06
+[5761][      debug]   minor_collections: 8
+[5761][      debug]   major_collections: 1
+[5761][      debug]   compactions: 0
+[5761][      debug]   top_heap_words: 1761792
+[5761][      debug]   
+[5761][      debug] GC stats for main_process_full:
+[5761][      debug]   minor_words: 6.85681e+06
+[5761][      debug]   promoted_words: 1.60065e+06
+[5761][      debug]   major_words: 1.7518e+06
+[5761][      debug]   minor_collections: 18
+[5761][      debug]   major_collections: 4
+[5761][      debug]   compactions: 1
+[5761][      debug]   top_heap_words: 1761792
+[5761][      debug]   
+[5761][environment] Scheduler: file
+[5761][environment] Cores used: 2
+[5761][environment] [5730][      debug] GC stats for capture:
+[5730][      debug]   minor_words: 30966
+[5730][      debug]   promoted_words: 0
+[5730][      debug]   major_words: 0
+[5730][      debug]   minor_collections: 0
+[5730][      debug]   major_collections: 0
+[5730][      debug]   compactions: 0
+[5730][      debug]   top_heap_words: 760832
+[5730][      debug]   
+[5730][environment] Parallel jobs: 2
+[5730][   progress] Found 50 source files to analyze in /Users/catherine/Documents/GitHub/assignment1-gstat-20/1.1/BatBat-Game/infer-out
+[5772][   progress] src/main/java/al/tonikolaba/entity/HUD.java starting
+[5771][   progress] src/main/java/al/tonikolaba/gamestate/AcidState.java starting
+[5772][   progress] src/main/java/al/tonikolaba/entity/HUD.java DONE
+[5772][   progress] src/main/java/al/tonikolaba/entity/Explosion.java starting
+[5772][   progress] src/main/java/al/tonikolaba/entity/Explosion.java DONE
+[5772][   progress] src/main/java/al/tonikolaba/gamestate/MenuState.java starting
+[5772][   progress] src/main/java/al/tonikolaba/gamestate/MenuState.java DONE
+[5772][   progress] src/main/java/al/tonikolaba/gamestate/Level1State.java starting
+[5772][   progress] src/main/java/al/tonikolaba/gamestate/Level1State.java DONE
+[5772][   progress] src/main/java/al/tonikolaba/entity/enemies/XhelBat.java starting
+[5771][   progress] src/main/java/al/tonikolaba/gamestate/AcidState.java DONE
+[5771][   progress] src/main/java/al/tonikolaba/handlers/Keys.java starting
+[5771][   progress] src/main/java/al/tonikolaba/handlers/Keys.java DONE
+[5771][   progress] src/main/java/al/tonikolaba/gamestate/OptionsState.java starting
+[5771][   progress] src/main/java/al/tonikolaba/gamestate/OptionsState.java DONE
+[5771][   progress] src/main/java/al/tonikolaba/entity/batbat/Piece.java starting
+[5771][   progress] src/main/java/al/tonikolaba/entity/batbat/Piece.java DONE
+[5771][   progress] src/test/java/al/tonikolaba/entity/PlayerSaveTest.java starting
+[5771][   progress] src/test/java/al/tonikolaba/entity/PlayerSaveTest.java DONE
+[5771][   progress] src/main/java/al/tonikolaba/gamestate/Level3State.java starting
+[5772][   progress] src/main/java/al/tonikolaba/entity/enemies/XhelBat.java DONE
+[5772][   progress] src/main/java/al/tonikolaba/main/GamePanel.java starting
+[5772][   progress] src/main/java/al/tonikolaba/main/GamePanel.java DONE
+[5772][   progress] src/main/java/al/tonikolaba/entity/Portal.java starting
+[5772][   progress] src/main/java/al/tonikolaba/entity/Portal.java DONE
+[5772][   progress] src/main/java/al/tonikolaba/handlers/LoggingHelper.java starting
+[5772][   progress] src/main/java/al/tonikolaba/handlers/LoggingHelper.java DONE
+[5772][   progress] src/test/java/al/tonikolaba/entity/PlayerTest.java starting
+[5772][   progress] src/test/java/al/tonikolaba/entity/PlayerTest.java DONE
+[5772][   progress] src/main/java/al/tonikolaba/audio/JukeBox.java starting
+[5772][   progress] src/main/java/al/tonikolaba/audio/JukeBox.java DONE
+[5772][   progress] src/main/java/al/tonikolaba/tilemap/Tile.java starting
+[5772][   progress] src/main/java/al/tonikolaba/tilemap/Tile.java DONE
+[5772][   progress] src/main/java/al/tonikolaba/tilemap/TileMap.java starting
+[5772][   progress] src/main/java/al/tonikolaba/tilemap/TileMap.java DONE
+[5772][   progress] src/main/java/al/tonikolaba/entity/Player.java starting
+[5772][   progress] src/main/java/al/tonikolaba/entity/Player.java DONE
+[5772][   progress] src/main/java/al/tonikolaba/gamestate/BasicState.java starting
+[5772][   progress] src/main/java/al/tonikolaba/gamestate/BasicState.java DONE
+[5772][   progress] src/main/java/al/tonikolaba/tilemap/Background.java starting
+[5772][   progress] src/main/java/al/tonikolaba/tilemap/Background.java DONE
+[5772][   progress] src/main/java/al/tonikolaba/handlers/Content.java starting
+[5772][   progress] src/main/java/al/tonikolaba/handlers/Content.java DONE
+[5772][   progress] src/main/java/al/tonikolaba/gamestate/LevelTest.java starting
+[5771][   progress] src/main/java/al/tonikolaba/gamestate/Level3State.java DONE
+[5771][   progress] src/main/java/al/tonikolaba/main/BatBatGame.java starting
+[5771][   progress] src/main/java/al/tonikolaba/main/BatBatGame.java DONE
+[5771][   progress] src/main/java/al/tonikolaba/entity/EnemyProjectile.java starting
+[5771][   progress] src/main/java/al/tonikolaba/entity/EnemyProjectile.java DONE
+[5771][   progress] src/main/java/al/tonikolaba/gamestate/Level2State.java starting
+[5771][   progress] src/main/java/al/tonikolaba/gamestate/Level2State.java DONE
+[5771][   progress] src/test/java/al/tonikolaba/gamestate/GameStateManagerTest.java starting
+[5771][   progress] src/test/java/al/tonikolaba/gamestate/GameStateManagerTest.java DONE
+[5771][   progress] src/main/java/al/tonikolaba/entity/Title.java starting
+[5771][   progress] src/main/java/al/tonikolaba/entity/Title.java DONE
+[5771][   progress] src/main/java/al/tonikolaba/main/BatBatSpring.java starting
+[5771][   progress] src/main/java/al/tonikolaba/main/BatBatSpring.java DONE
+[5771][   progress] src/main/java/al/tonikolaba/entity/enemies/RedEnergy.java starting
+[5772][   progress] src/main/java/al/tonikolaba/gamestate/LevelTest.java DONE
+[5772][   progress] src/main/java/al/tonikolaba/entity/PlayerSave.java starting
+[5772][   progress] src/main/java/al/tonikolaba/entity/PlayerSave.java DONE
+[5772][   progress] src/main/java/al/tonikolaba/gamestate/PauseState.java starting
+[5772][   progress] src/main/java/al/tonikolaba/gamestate/PauseState.java DONE
+[5772][   progress] src/main/java/al/tonikolaba/entity/Animation.java starting
+[5772][   progress] src/main/java/al/tonikolaba/entity/Animation.java DONE
+[5772][   progress] src/test/java/al/tonikolaba/entity/MapObjectTest.java starting
+[5772][   progress] src/test/java/al/tonikolaba/entity/MapObjectTest.java DONE
+[5772][   progress] src/test/java/al/tonikolaba/handlers/KeysTest.java starting
+[5772][   progress] src/test/java/al/tonikolaba/handlers/KeysTest.java DONE
+[5772][   progress] src/main/java/al/tonikolaba/gamestate/GameState.java starting
+[5771][   progress] src/main/java/al/tonikolaba/entity/enemies/RedEnergy.java DONE
+[5771][   progress] src/main/java/al/tonikolaba/gamestate/HowtoPlay.java starting
+[5771][   progress] src/main/java/al/tonikolaba/gamestate/HowtoPlay.java DONE
+[5771][   progress] src/main/java/al/tonikolaba/entity/FireBall.java starting
+[5772][   progress] src/main/java/al/tonikolaba/gamestate/GameState.java DONE
+[5772][   progress] src/main/java/al/tonikolaba/entity/EnergyParticle.java starting
+[5772][   progress] src/main/java/al/tonikolaba/entity/EnergyParticle.java DONE
+[5772][   progress] src/main/java/al/tonikolaba/entity/MapObject.java starting
+[5772][   progress] src/main/java/al/tonikolaba/entity/MapObject.java DONE
+[5772][   progress] src/main/java/al/tonikolaba/gamestate/Level4State.java starting
+[5771][   progress] src/main/java/al/tonikolaba/entity/FireBall.java DONE
+[5771][   progress] src/main/java/al/tonikolaba/entity/enemies/Zogu.java starting
+[5771][   progress] src/main/java/al/tonikolaba/entity/enemies/Zogu.java DONE
+[5771][   progress] src/main/java/al/tonikolaba/entity/enemies/Ufo.java starting
+[5771][   progress] src/main/java/al/tonikolaba/entity/enemies/Ufo.java DONE
+[5771][   progress] src/main/java/al/tonikolaba/entity/Spirit.java starting
+[5772][   progress] src/main/java/al/tonikolaba/gamestate/Level4State.java DONE
+[5772][   progress] src/test/java/al/tonikolaba/ProjectSuiteTests.java starting
+[5772][   progress] src/test/java/al/tonikolaba/ProjectSuiteTests.java DONE
+[5772][   progress] src/main/java/al/tonikolaba/entity/enemies/Flyer.java starting
+[5772][   progress] src/main/java/al/tonikolaba/entity/enemies/Flyer.java DONE
+[5772][   progress] src/main/java/al/tonikolaba/gamestate/GameStateManager.java starting
+[5772][   progress] src/main/java/al/tonikolaba/gamestate/GameStateManager.java DONE
+[5772][   progress] src/test/java/al/tonikolaba/main/BatBatSpringTests.java starting
+[5772][   progress] src/test/java/al/tonikolaba/main/BatBatSpringTests.java DONE
+[5772][   progress] src/main/java/al/tonikolaba/entity/Teleport.java starting
+[5772][   progress] src/main/java/al/tonikolaba/entity/Teleport.java DONE
+[5772][   progress] src/main/java/al/tonikolaba/entity/Enemy.java starting
+[5772][   progress] src/main/java/al/tonikolaba/entity/Enemy.java DONE
+[5771][   progress] src/main/java/al/tonikolaba/entity/Spirit.java DONE
+[5730][      debug] Backend stats:
+[5730][      debug]   summary_file_try_load= 6183
+[5730][      debug]   summary_read_from_disk= 492
+[5730][      debug]   summary_cache_hits= 18097 (74%)
+[5730][      debug]   summary_cache_misses= 6183
+[5730][      debug]   ondemand_procs_analyzed= 382
+[5730][      debug]   ondemand_local_cache_hits= 9839 (92%)
+[5730][      debug]   ondemand_local_cache_misses= 742
+[5730][      debug]   proc_locker_lock_time_user= 0.00000000
+[5730][      debug]   proc_locker_lock_time_sys= 0.00000000
+[5730][      debug]   proc_locker_lock_time_wall= 0.00000000
+[5730][      debug]   proc_locker_unlock_time_user= 0.00000000
+[5730][      debug]   proc_locker_unlock_time_sys= 0.00000000
+[5730][      debug]   proc_locker_unlock_time_wall= 0.00000000
+[5730][      debug]   restart_scheduler_useful_time_user= 0.00000000
+[5730][      debug]   restart_scheduler_useful_time_sys= 0.00000000
+[5730][      debug]   restart_scheduler_useful_time_wall= 0.00000000
+[5730][      debug]   restart_scheduler_total_time_user= 0.00000000
+[5730][      debug]   restart_scheduler_total_time_sys= 0.00000000
+[5730][      debug]   restart_scheduler_total_time_wall= 0.00000000
+[5730][      debug]   
+[5730][      debug] GC stats for backend_stats.gc_stats_add.:
+[5730][      debug]   minor_words: 1.8209e+10
+[5730][      debug]   promoted_words: 1.00205e+08
+[5730][      debug]   major_words: 1.15299e+08
+[5730][      debug]   minor_collections: 17440
+[5730][      debug]   major_collections: 165
+[5730][      debug]   compactions: 0
+[5730][      debug]   top_heap_words: 9470464
+[5730][      debug]   
+[5730][      debug] GC stats for backend_stats.gc_stats_max.:
+[5730][      debug]   minor_words: 9.18537e+09
+[5730][      debug]   promoted_words: 5.08111e+07
+[5730][      debug]   major_words: 5.77285e+07
+[5730][      debug]   minor_collections: 8798
+[5730][      debug]   major_collections: 86
+[5730][      debug]   compactions: 0
+[5730][      debug]   top_heap_words: 5392896
+[5730][      debug]   
+[5730][      debug] Average over 2 processes
+[5730][      debug] GC stats for backend_stats.gc_stats_average.:
+[5730][      debug]   minor_words: 9.1045e+09
+[5730][      debug]   promoted_words: 5.01024e+07
+[5730][      debug]   major_words: 5.76494e+07
+[5730][      debug]   minor_collections: 8720
+[5730][      debug]   major_collections: 82
+[5730][      debug]   compactions: 0
+[5730][      debug]   top_heap_words: 4735232
+[5730][      debug]   
+[5730][      debug] Analysis phase finished in 43.976s
+[5730][      debug] backend_stats.scheduler_process_analysis_time_user= 0.25141600
+[5730][      debug] backend_stats.scheduler_process_analysis_time_sys= 0.14119400
+[5730][      debug] backend_stats.scheduler_process_analysis_time_wall= 43.97589482
+[5730][      debug] GC stats for analysis_scheduler:
+[5730][      debug]   minor_words: 2.25001e+07
+[5730][      debug]   promoted_words: 231886
+[5730][      debug]   major_words: 240592
+[5730][      debug]   minor_collections: 25
+[5730][      debug]   major_collections: 6
+[5730][      debug]   compactions: 1
+[5730][      debug]   top_heap_words: 1006592
+[5730][      debug]   
+[5730][      debug] GC stats for report:
+[5730][      debug]   minor_words: 287082
+[5730][      debug]   promoted_words: 0
+[5730][      debug]   major_words: 9503
+[5730][      debug]   minor_collections: 0
+[5730][      debug]   major_collections: 0
+[5730][      debug]   compactions: 0
+[5730][      debug]   top_heap_words: 1006592
+[5730][      debug]   
+[5730][      debug] GC stats for main_process_full:
+[5730][      debug]   minor_words: 2.46518e+07
+[5730][      debug]   promoted_words: 394923
+[5730][      debug]   major_words: 977649
+[5730][      debug]   minor_collections: 35
+[5730][      debug]   major_collections: 9
+[5730][      debug]   compactions: 2
+[5730][      debug]   top_heap_words: 1006592
+[5730][      debug]   
+[5733][      debug] Sqlite write daemon: terminating

@@ -1,0 +1,229 @@
+Last login: Sun Sep 26 12:20:47 on ttys003
+catherine@Catherines-MBP BatBat-Game % ls
+BatBat-Game.iml		License.md		SECURITY.md		docs			src
+CODE_OF_CONDUCT.md	Procfile		about			infer-out		target
+CONTRIBUTING.MD		README.md		appveyor.yml		pom.xml
+catherine@Catherines-MBP BatBat-Game % infer run -- mvn clean install
+Capturing in maven mode...
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< al.tonikolaba:BatBat-Game >----------------------
+[INFO] Building BatBat-Game 1.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ BatBat-Game ---
+[INFO] Deleting /Users/catherine/Documents/GitHub/assignment1-gstat-20/1.1/BatBat-Game/target
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.2.6.RELEASE:build-info (default) @ BatBat-Game ---
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ BatBat-Game ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 48 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ BatBat-Game ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 43 source files to /Users/catherine/Documents/GitHub/assignment1-gstat-20/1.1/BatBat-Game/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ BatBat-Game ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/catherine/Documents/GitHub/assignment1-gstat-20/1.1/BatBat-Game/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ BatBat-Game ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 7 source files to /Users/catherine/Documents/GitHub/assignment1-gstat-20/1.1/BatBat-Game/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ BatBat-Game ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+Sep. 26, 2021 12:29:19 P.M. org.junit.vintage.engine.discovery.DefensiveAllDefaultPossibilitiesBuilder$DefensiveAnnotatedBuilder buildRunner
+WARNING: Ignoring test class using JUnitPlatform runner: al.tonikolaba.entity.PlayerSaveTest
+Sep. 26, 2021 12:29:20 P.M. org.junit.vintage.engine.discovery.DefensiveAllDefaultPossibilitiesBuilder$DefensiveAnnotatedBuilder buildRunner
+WARNING: Ignoring test class using JUnitPlatform runner: al.tonikolaba.entity.PlayerTest
+Sep. 26, 2021 12:29:20 P.M. org.junit.vintage.engine.discovery.DefensiveAllDefaultPossibilitiesBuilder$DefensiveAnnotatedBuilder buildRunner
+WARNING: Ignoring test class using JUnitPlatform runner: al.tonikolaba.entity.MapObjectTest
+Sep. 26, 2021 12:29:20 P.M. org.junit.vintage.engine.discovery.DefensiveAllDefaultPossibilitiesBuilder$DefensiveAnnotatedBuilder buildRunner
+WARNING: Ignoring test class using JUnitPlatform runner: al.tonikolaba.ProjectSuiteTests
+Sep. 26, 2021 12:29:20 P.M. org.junit.vintage.engine.discovery.DefensiveAllDefaultPossibilitiesBuilder$DefensiveAnnotatedBuilder buildRunner
+WARNING: Ignoring test class using JUnitPlatform runner: al.tonikolaba.gamestate.GameStateManagerTest
+Sep. 26, 2021 12:29:20 P.M. org.junit.vintage.engine.discovery.DefensiveAllDefaultPossibilitiesBuilder$DefensiveAnnotatedBuilder buildRunner
+WARNING: Ignoring test class using JUnitPlatform runner: al.tonikolaba.main.BatBatSpringTests
+Sep. 26, 2021 12:29:20 P.M. org.junit.vintage.engine.discovery.DefensiveAllDefaultPossibilitiesBuilder$DefensiveAnnotatedBuilder buildRunner
+WARNING: Ignoring test class using JUnitPlatform runner: al.tonikolaba.handlers.KeysTest
+Sep. 26, 2021 12:29:20 P.M. org.junit.vintage.engine.discovery.DefensiveAllDefaultPossibilitiesBuilder$DefensiveAnnotatedBuilder buildRunner
+WARNING: Ignoring test class using JUnitPlatform runner: al.tonikolaba.entity.PlayerSaveTest
+Sep. 26, 2021 12:29:20 P.M. org.junit.vintage.engine.discovery.DefensiveAllDefaultPossibilitiesBuilder$DefensiveAnnotatedBuilder buildRunner
+WARNING: Ignoring test class using JUnitPlatform runner: al.tonikolaba.entity.PlayerTest
+Sep. 26, 2021 12:29:20 P.M. org.junit.vintage.engine.discovery.DefensiveAllDefaultPossibilitiesBuilder$DefensiveAnnotatedBuilder buildRunner
+WARNING: Ignoring test class using JUnitPlatform runner: al.tonikolaba.entity.MapObjectTest
+Sep. 26, 2021 12:29:20 P.M. org.junit.vintage.engine.discovery.DefensiveAllDefaultPossibilitiesBuilder$DefensiveAnnotatedBuilder buildRunner
+WARNING: Ignoring test class using JUnitPlatform runner: al.tonikolaba.gamestate.GameStateManagerTest
+Sep. 26, 2021 12:29:20 P.M. org.junit.vintage.engine.discovery.DefensiveAllDefaultPossibilitiesBuilder$DefensiveAnnotatedBuilder buildRunner
+WARNING: Ignoring test class using JUnitPlatform runner: al.tonikolaba.main.BatBatSpringTests
+Sep. 26, 2021 12:29:20 P.M. org.junit.vintage.engine.discovery.DefensiveAllDefaultPossibilitiesBuilder$DefensiveAnnotatedBuilder buildRunner
+WARNING: Ignoring test class using JUnitPlatform runner: al.tonikolaba.handlers.KeysTest
+[INFO] Running al.tonikolaba.entity.PlayerSaveTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.088 s - in al.tonikolaba.entity.PlayerSaveTest
+[INFO] Running al.tonikolaba.entity.PlayerTest
+Sep. 26, 2021 12:29:21 P.M. al.tonikolaba.audio.JukeBox load
+SEVERE: Cannot invoke "java.util.HashMap.put(Object, Object)" because "al.tonikolaba.audio.JukeBox.clips" is null
+Sep. 26, 2021 12:29:21 P.M. al.tonikolaba.audio.JukeBox load
+SEVERE: Cannot invoke "java.util.HashMap.put(Object, Object)" because "al.tonikolaba.audio.JukeBox.clips" is null
+Sep. 26, 2021 12:29:21 P.M. al.tonikolaba.audio.JukeBox load
+SEVERE: Cannot invoke "java.util.HashMap.put(Object, Object)" because "al.tonikolaba.audio.JukeBox.clips" is null
+Sep. 26, 2021 12:29:21 P.M. al.tonikolaba.audio.JukeBox load
+SEVERE: Cannot invoke "java.util.HashMap.put(Object, Object)" because "al.tonikolaba.audio.JukeBox.clips" is null
+Sep. 26, 2021 12:29:21 P.M. al.tonikolaba.audio.JukeBox load
+SEVERE: Cannot invoke "java.util.HashMap.put(Object, Object)" because "al.tonikolaba.audio.JukeBox.clips" is null
+Sep. 26, 2021 12:29:21 P.M. al.tonikolaba.audio.JukeBox load
+SEVERE: Cannot invoke "java.util.HashMap.put(Object, Object)" because "al.tonikolaba.audio.JukeBox.clips" is null
+Sep. 26, 2021 12:29:21 P.M. al.tonikolaba.audio.JukeBox load
+SEVERE: Cannot invoke "java.util.HashMap.put(Object, Object)" because "al.tonikolaba.audio.JukeBox.clips" is null
+Sep. 26, 2021 12:29:21 P.M. al.tonikolaba.audio.JukeBox load
+SEVERE: Cannot invoke "java.util.HashMap.put(Object, Object)" because "al.tonikolaba.audio.JukeBox.clips" is null
+Sep. 26, 2021 12:29:21 P.M. al.tonikolaba.audio.JukeBox load
+SEVERE: Cannot invoke "java.util.HashMap.put(Object, Object)" because "al.tonikolaba.audio.JukeBox.clips" is null
+Sep. 26, 2021 12:29:21 P.M. al.tonikolaba.audio.JukeBox load
+SEVERE: Cannot invoke "java.util.HashMap.put(Object, Object)" because "al.tonikolaba.audio.JukeBox.clips" is null
+Sep. 26, 2021 12:29:21 P.M. al.tonikolaba.audio.JukeBox load
+SEVERE: Cannot invoke "java.util.HashMap.put(Object, Object)" because "al.tonikolaba.audio.JukeBox.clips" is null
+Sep. 26, 2021 12:29:21 P.M. al.tonikolaba.audio.JukeBox load
+SEVERE: Cannot invoke "java.util.HashMap.put(Object, Object)" because "al.tonikolaba.audio.JukeBox.clips" is null
+Sep. 26, 2021 12:29:21 P.M. al.tonikolaba.audio.JukeBox load
+SEVERE: Cannot invoke "java.util.HashMap.put(Object, Object)" because "al.tonikolaba.audio.JukeBox.clips" is null
+Sep. 26, 2021 12:29:21 P.M. al.tonikolaba.audio.JukeBox load
+SEVERE: Cannot invoke "java.util.HashMap.put(Object, Object)" because "al.tonikolaba.audio.JukeBox.clips" is null
+Sep. 26, 2021 12:29:21 P.M. al.tonikolaba.audio.JukeBox load
+SEVERE: Cannot invoke "java.util.HashMap.put(Object, Object)" because "al.tonikolaba.audio.JukeBox.clips" is null
+Sep. 26, 2021 12:29:21 P.M. al.tonikolaba.audio.JukeBox load
+SEVERE: Cannot invoke "java.util.HashMap.put(Object, Object)" because "al.tonikolaba.audio.JukeBox.clips" is null
+Sep. 26, 2021 12:29:21 P.M. al.tonikolaba.audio.JukeBox load
+SEVERE: Cannot invoke "java.util.HashMap.put(Object, Object)" because "al.tonikolaba.audio.JukeBox.clips" is null
+Sep. 26, 2021 12:29:21 P.M. al.tonikolaba.audio.JukeBox load
+SEVERE: Cannot invoke "java.util.HashMap.put(Object, Object)" because "al.tonikolaba.audio.JukeBox.clips" is null
+Sep. 26, 2021 12:29:21 P.M. al.tonikolaba.audio.JukeBox load
+SEVERE: Cannot invoke "java.util.HashMap.put(Object, Object)" because "al.tonikolaba.audio.JukeBox.clips" is null
+Sep. 26, 2021 12:29:21 P.M. al.tonikolaba.audio.JukeBox load
+SEVERE: Cannot invoke "java.util.HashMap.put(Object, Object)" because "al.tonikolaba.audio.JukeBox.clips" is null
+Sep. 26, 2021 12:29:21 P.M. al.tonikolaba.audio.JukeBox load
+SEVERE: Cannot invoke "java.util.HashMap.put(Object, Object)" because "al.tonikolaba.audio.JukeBox.clips" is null
+Sep. 26, 2021 12:29:21 P.M. al.tonikolaba.audio.JukeBox load
+SEVERE: Cannot invoke "java.util.HashMap.put(Object, Object)" because "al.tonikolaba.audio.JukeBox.clips" is null
+Sep. 26, 2021 12:29:21 P.M. al.tonikolaba.audio.JukeBox load
+SEVERE: Cannot invoke "java.util.HashMap.put(Object, Object)" because "al.tonikolaba.audio.JukeBox.clips" is null
+Sep. 26, 2021 12:29:21 P.M. al.tonikolaba.audio.JukeBox load
+SEVERE: Cannot invoke "java.util.HashMap.put(Object, Object)" because "al.tonikolaba.audio.JukeBox.clips" is null
+Sep. 26, 2021 12:29:21 P.M. al.tonikolaba.audio.JukeBox load
+SEVERE: Cannot invoke "java.util.HashMap.put(Object, Object)" because "al.tonikolaba.audio.JukeBox.clips" is null
+Sep. 26, 2021 12:29:21 P.M. al.tonikolaba.audio.JukeBox load
+SEVERE: Cannot invoke "java.util.HashMap.put(Object, Object)" because "al.tonikolaba.audio.JukeBox.clips" is null
+Sep. 26, 2021 12:29:21 P.M. al.tonikolaba.audio.JukeBox load
+SEVERE: Cannot invoke "java.util.HashMap.put(Object, Object)" because "al.tonikolaba.audio.JukeBox.clips" is null
+Sep. 26, 2021 12:29:21 P.M. al.tonikolaba.audio.JukeBox load
+SEVERE: Cannot invoke "java.util.HashMap.put(Object, Object)" because "al.tonikolaba.audio.JukeBox.clips" is null
+Sep. 26, 2021 12:29:21 P.M. al.tonikolaba.audio.JukeBox load
+SEVERE: Cannot invoke "java.util.HashMap.put(Object, Object)" because "al.tonikolaba.audio.JukeBox.clips" is null
+Sep. 26, 2021 12:29:22 P.M. al.tonikolaba.audio.JukeBox load
+SEVERE: Cannot invoke "java.util.HashMap.put(Object, Object)" because "al.tonikolaba.audio.JukeBox.clips" is null
+Sep. 26, 2021 12:29:22 P.M. al.tonikolaba.audio.JukeBox load
+SEVERE: Cannot invoke "java.util.HashMap.put(Object, Object)" because "al.tonikolaba.audio.JukeBox.clips" is null
+Sep. 26, 2021 12:29:22 P.M. al.tonikolaba.audio.JukeBox load
+SEVERE: Cannot invoke "java.util.HashMap.put(Object, Object)" because "al.tonikolaba.audio.JukeBox.clips" is null
+Sep. 26, 2021 12:29:22 P.M. al.tonikolaba.audio.JukeBox load
+SEVERE: Cannot invoke "java.util.HashMap.put(Object, Object)" because "al.tonikolaba.audio.JukeBox.clips" is null
+Sep. 26, 2021 12:29:22 P.M. al.tonikolaba.audio.JukeBox load
+SEVERE: Cannot invoke "java.util.HashMap.put(Object, Object)" because "al.tonikolaba.audio.JukeBox.clips" is null
+Sep. 26, 2021 12:29:22 P.M. al.tonikolaba.audio.JukeBox load
+SEVERE: Cannot invoke "java.util.HashMap.put(Object, Object)" because "al.tonikolaba.audio.JukeBox.clips" is null
+Sep. 26, 2021 12:29:22 P.M. al.tonikolaba.audio.JukeBox load
+SEVERE: Cannot invoke "java.util.HashMap.put(Object, Object)" because "al.tonikolaba.audio.JukeBox.clips" is null
+Sep. 26, 2021 12:29:22 P.M. al.tonikolaba.audio.JukeBox load
+SEVERE: Cannot invoke "java.util.HashMap.put(Object, Object)" because "al.tonikolaba.audio.JukeBox.clips" is null
+Sep. 26, 2021 12:29:22 P.M. al.tonikolaba.audio.JukeBox load
+SEVERE: Cannot invoke "java.util.HashMap.put(Object, Object)" because "al.tonikolaba.audio.JukeBox.clips" is null
+Sep. 26, 2021 12:29:22 P.M. al.tonikolaba.audio.JukeBox load
+SEVERE: Cannot invoke "java.util.HashMap.put(Object, Object)" because "al.tonikolaba.audio.JukeBox.clips" is null
+Sep. 26, 2021 12:29:22 P.M. al.tonikolaba.audio.JukeBox load
+SEVERE: Cannot invoke "java.util.HashMap.put(Object, Object)" because "al.tonikolaba.audio.JukeBox.clips" is null
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.599 s - in al.tonikolaba.entity.PlayerTest
+[INFO] Running al.tonikolaba.entity.MapObjectTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in al.tonikolaba.entity.MapObjectTest
+[INFO] Running al.tonikolaba.gamestate.GameStateManagerTest
+Sep. 26, 2021 12:29:22 P.M. al.tonikolaba.tilemap.TileMap loadMap
+SEVERE: Cannot invoke "String.split(String)" because "line" is null
+Sep. 26, 2021 12:29:23 P.M. al.tonikolaba.tilemap.TileMap loadMap
+SEVERE: Index 0 out of bounds for length 0
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.573 s - in al.tonikolaba.gamestate.GameStateManagerTest
+[INFO] Running al.tonikolaba.main.BatBatSpringTests
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in al.tonikolaba.main.BatBatSpringTests
+[INFO] Running al.tonikolaba.handlers.KeysTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in al.tonikolaba.handlers.KeysTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- maven-jar-plugin:3.1.2:jar (default-jar) @ BatBat-Game ---
+[INFO] Building jar: /Users/catherine/Documents/GitHub/assignment1-gstat-20/1.1/BatBat-Game/target/batbatgame.jar
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.2.6.RELEASE:repackage (repackage) @ BatBat-Game ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.2.6.RELEASE:repackage (default) @ BatBat-Game ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  18.798 s
+[INFO] Finished at: 2021-09-26T12:29:25-04:00
+[INFO] ------------------------------------------------------------------------
+Found 50 source files to analyze in /Users/catherine/Documents/GitHub/assignment1-gstat-20/1.1/BatBat-Game/infer-out
+50/50 [##############################################################################] 100% 43.95s
+
+src/main/java/al/tonikolaba/audio/JukeBox.java:77: error: Null Dereference
+  object returned by `al.tonikolaba.audio.JukeBox.clips.get(s)` could be null and is dereferenced at line 77.
+  75.   		if (mute)
+  76.   			return;
+  77. > 		if (clips.get(s).isRunning())
+  78.   			return;
+  79.   		clips.get(s).start();
+
+src/main/java/al/tonikolaba/audio/JukeBox.java:83: error: Null Dereference
+  object returned by `al.tonikolaba.audio.JukeBox.clips.get(s)` could be null and is dereferenced at line 83.
+  81.   
+  82.   	public static void loop(String s) {
+  83. > 		loop(s, gap, gap, clips.get(s).getFrameLength() - 1);
+  84.   	}
+  85.   
+
+src/main/java/al/tonikolaba/audio/JukeBox.java:87: error: Null Dereference
+  object returned by `al.tonikolaba.audio.JukeBox.clips.get(s)` could be null and is dereferenced at line 87.
+  85.   
+  86.   	public static void loop(String s, int frame) {
+  87. > 		loop(s, frame, gap, clips.get(s).getFrameLength() - 1);
+  88.   	}
+  89.   
+
+src/main/java/al/tonikolaba/audio/JukeBox.java:98: error: Null Dereference
+  object returned by `al.tonikolaba.audio.JukeBox.clips.get(s)` could be null and is dereferenced at line 98.
+   96.   		if (mute)
+   97.   			return;
+   98. > 		clips.get(s).setLoopPoints(start, end);
+   99.   		clips.get(s).setFramePosition(frame);
+  100.   		clips.get(s).loop(Clip.LOOP_CONTINUOUSLY);
+
+src/main/java/al/tonikolaba/audio/JukeBox.java:104: error: Null Dereference
+  object returned by `al.tonikolaba.audio.JukeBox.clips.get(s)` could be null and is dereferenced at line 104.
+  102.   
+  103.   	public static void setPosition(String s, int frame) {
+  104. > 		clips.get(s).setFramePosition(frame);
+  105.   	}
+  106.   
+
+
+Found 8 issues (console output truncated to 5, see '/Users/catherine/Documents/GitHub/assignment1-gstat-20/1.1/BatBat-Game/infer-out/report.txt' for the full list)
+          Issue Type(ISSUED_TYPE_ID): #
+  Null Dereference(NULL_DEREFERENCE): 8
+catherine@Catherines-MBP BatBat-Game % 
