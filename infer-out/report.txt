@@ -1,0 +1,75 @@
+#0
+src/main/java/al/tonikolaba/audio/JukeBox.java:77: error: Null Dereference
+  object returned by `al.tonikolaba.audio.JukeBox.clips.get(s)` could be null and is dereferenced at line 77.
+  75.   		if (mute)
+  76.   			return;
+  77. > 		if (clips.get(s).isRunning())
+  78.   			return;
+  79.   		clips.get(s).start();
+
+#1
+src/main/java/al/tonikolaba/audio/JukeBox.java:83: error: Null Dereference
+  object returned by `al.tonikolaba.audio.JukeBox.clips.get(s)` could be null and is dereferenced at line 83.
+  81.   
+  82.   	public static void loop(String s) {
+  83. > 		loop(s, gap, gap, clips.get(s).getFrameLength() - 1);
+  84.   	}
+  85.   
+
+#2
+src/main/java/al/tonikolaba/audio/JukeBox.java:87: error: Null Dereference
+  object returned by `al.tonikolaba.audio.JukeBox.clips.get(s)` could be null and is dereferenced at line 87.
+  85.   
+  86.   	public static void loop(String s, int frame) {
+  87. > 		loop(s, frame, gap, clips.get(s).getFrameLength() - 1);
+  88.   	}
+  89.   
+
+#3
+src/main/java/al/tonikolaba/audio/JukeBox.java:98: error: Null Dereference
+  object returned by `al.tonikolaba.audio.JukeBox.clips.get(s)` could be null and is dereferenced at line 98.
+   96.   		if (mute)
+   97.   			return;
+   98. > 		clips.get(s).setLoopPoints(start, end);
+   99.   		clips.get(s).setFramePosition(frame);
+  100.   		clips.get(s).loop(Clip.LOOP_CONTINUOUSLY);
+
+#4
+src/main/java/al/tonikolaba/audio/JukeBox.java:104: error: Null Dereference
+  object returned by `al.tonikolaba.audio.JukeBox.clips.get(s)` could be null and is dereferenced at line 104.
+  102.   
+  103.   	public static void setPosition(String s, int frame) {
+  104. > 		clips.get(s).setFramePosition(frame);
+  105.   	}
+  106.   
+
+#5
+src/main/java/al/tonikolaba/audio/JukeBox.java:108: error: Null Dereference
+  object returned by `al.tonikolaba.audio.JukeBox.clips.get(s)` could be null and is dereferenced at line 108.
+  106.   
+  107.   	public static int getFrames(String s) {
+  108. > 		return clips.get(s).getFrameLength();
+  109.   	}
+  110.   
+
+#6
+src/main/java/al/tonikolaba/audio/JukeBox.java:112: error: Null Dereference
+  object returned by `al.tonikolaba.audio.JukeBox.clips.get(s)` could be null and is dereferenced at line 112.
+  110.   
+  111.   	public static int getPosition(String s) {
+  112. > 		return clips.get(s).getFramePosition();
+  113.   	}
+  114.   
+
+#7
+src/main/java/al/tonikolaba/audio/JukeBox.java:117: error: Null Dereference
+  object returned by `al.tonikolaba.audio.JukeBox.clips.get(s)` could be null and is dereferenced at line 117.
+  115.   	public static void close(String s) {
+  116.   		stop(s);
+  117. > 		clips.get(s).close();
+  118.   	}
+  119.   
+
+Found 8 issues
+          Issue Type(ISSUED_TYPE_ID): #
+  Null Dereference(NULL_DEREFERENCE): 8
